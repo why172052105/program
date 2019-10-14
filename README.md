@@ -92,45 +92,43 @@
                 }
 
             }
+        }
+        class calculator
+        {
+            public int Add(int a, int b)
+            {
+                int c = a + b;
+                return c;
+            }
+            public string AddStr(string a,string b)
+            {
+                return string.Concat(a, b);
+            }
+            public int Sub(int a, int b)
+            {
+                int c = a - b;
+                return c;
+            }
+            public string SubStr(string a, string b)
+            {
+                return a.Replace(b, "");
+            }
+            public int Mult(int a, int b)
+            {
+                int c = a * b;
+                return c;
+            }
+            public int Divide(int a, int b)
+            {
+                int c = a / b;
+                return c;
+            }
+            public bool Equals(int a, int b)
+            {
+                if (a == b)
+                    return true;
+                else
+                    return false;
+            }
+        }
     }
-    class calculator
-    {
-        public int Add(int a, int b)
-        {
-            int c = a + b;
-            return c;
-        }
-        public string AddStr(string a,string b)
-        {
-            return string.Concat(a, b);
-        }
-        public int Sub(int a, int b)
-        {
-            int c = a - b;
-            return c;
-        }
-        public string SubStr(string a, string b)
-        {
-            return a.Replace(b, "");
-        }
-        public int Mult(int a, int b)
-        {
-            int c = a * b;
-            return c;
-        }
-        public int Divide(int a, int b)
-        {
-            int c = a / b;
-            return c;
-        }
-        public bool Equals(int a, int b)
-        {
-            if (a == b)
-                return true;
-            else
-                return false;
-        }
-    }
-    
-    
-}
