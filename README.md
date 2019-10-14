@@ -1,10 +1,6 @@
 # program
 这里存放C#代码
 
-
-
-
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +18,6 @@ namespace test
             if (Console.ReadLine() == "y")
             {
                 Console.WriteLine("请输入一个整数");
-
                 while (true)
                 {
                     try
